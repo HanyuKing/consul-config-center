@@ -11,7 +11,7 @@ import (
 func main() {
 	Init()
 
-	http.HandleFunc("/keys", myHandler) //	测试. 打印出所有的key
+	http.HandleFunc("/keys", myHandler) //	测试. 打印出所有的key, value
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
