@@ -13,7 +13,7 @@
 5. 客户端请求我们的服务，然后读取本地内存、业务处理
 6. 服务端返回数据给客户端
 7. 管理员变更配置(CRUD)
-8 . consul leade「通过raft一致性算法写入follower
+8 . consul leader 通过raft一致性算法写入follower
 ````
 ## 使用
 1. 本地运行 consul agent
