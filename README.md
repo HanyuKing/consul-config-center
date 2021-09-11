@@ -1,6 +1,6 @@
 # 统一配置中心(基于Consul)
 
-##架构
+## 架构
 
 ![avatar](image/architecture.png)
 
@@ -14,7 +14,7 @@
 7. 管理员变更配置(CRUD)
 8 . consul leade「通过raft一致性算法写入follower
 ````
-##使用
+## 使用
 1. 下载代码之后运行consul
    命令：./consul agent -dev
 2. 在浏览器中输入 http://127.0.0.1:8500/ui/dc1/kv，创建 my/service_config/name
@@ -23,7 +23,7 @@
 3. 启动服务，当consul上的key变化时，会回调我们初始化的listener，同步到本机内存
 
 
-##CAP
+## CAP
 ````
 AP
 ````
