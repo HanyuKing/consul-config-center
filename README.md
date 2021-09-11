@@ -21,8 +21,8 @@
    ![avatar](image/create_key_val.png)
    ![avatar](image/create_key_val2.png)
 3. 启动服务，当consul上的key变化时，会回调我们初始化的listener，同步到本机内存。项目中的
-使用方式
-   v := config.GetStringOrElse("name", "default")
+使用方式\
+   ````v := config.GetStringOrElse("name", "default")````
    
 
 ## CAP
