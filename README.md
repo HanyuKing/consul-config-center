@@ -1,5 +1,4 @@
-# Consul 配置中心
-# Consul Config Center (Based on Consul)
+# Dynamic Consul Config Center (Based on Consul)
 
 ## 架构
 
