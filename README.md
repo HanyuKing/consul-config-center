@@ -15,8 +15,8 @@
 8 . consul leade「通过raft一致性算法写入follower
 ````
 ## 使用
-1. 下载代码之后运行consul
-   命令：./consul agent -dev
+1. 运行 consul agent
+   [参考](https://github.com/HanyuKing/consul-agent)
 2. 在浏览器中输入 http://127.0.0.1:8500/ui/dc1/kv, 创建 my/service_config/name
    ![avatar](image/create_key_val.png)
    ![avatar](image/create_key_val2.png)
